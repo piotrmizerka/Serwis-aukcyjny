@@ -8,8 +8,8 @@ public class AuctionDB {
     private final static String PASSWORD = "";
     private final static String DRIVER = "com.mysql.jdbc.Driver";
     
-    private final static String query1 = "SELECT * FROM";
-    private final static String query2 = "WHERE id =";
+    private final static String query1 = "SELECT * FROM ";
+    private final static String query2 = " WHERE id = ";
     private static Connection connection;
     private Statement statement;
        
