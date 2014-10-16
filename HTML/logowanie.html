@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="style.css" type="text/css" />
+		<title>Serwis aukcyjny</title>
+	</head>
+	<body>
+		<div id="wrapper">
+			
+			<header>
+				<div id="banner">
+						
+													
+				</div>
+			
+				<div id="menu">
+					<div id="opcje">
+						<ul>
+							<nav class="left">
+								<li>
+									<a href="index.html">Home</a>
+								</li>
+								<li>
+									<a>Aukcje</a>
+								</li>
+							</nav>
+							<nav class="right">
+								<li>
+									<a href="rejestracja.html">Rejestracja</a>
+								</li>
+								<li>
+									<a href="logowanie.html">Logowanie</a>
+								</li>
+							</nav>
+						</ul>
+					</div>
+				</div>
+			</header>
+			<div>
+				<div id="logowanie">
+					<form action="url_do_logowania" method="post">
+						<table>
+							<tbody>
+								<tr>
+									<td class="naglowek"><b>Zaloguj się</b></td>
+								</tr>
+								<tr>
+									<td><i>Login: </i><input class="pole" name="username" type="text" placeholder="login"/></td>
+								</tr>
+								<tr>
+									<td><i>Hasło: </i><input class="pole" type="password" name="password" placeholder="hasło"></td>
+								</tr>
+								<tr>
+									<td><input id="guzik1" type="submit" value="zaloguj się" /></td>
+								</tr>
+							</tbody>
+						</table>
+					</form>	
+				</div>
+				<div id="nielogowanie">
+					<table>
+						<tbody>
+							<tr>
+								<td><a>Nie masz jeszcze konta? Załóż je teraz!</a></td>
+							</tr>
+							<tr>
+								<td>
+									<form action="rejestracja.html">
+										<input id="guzik2" type="submit" value="Rejestracja"/>
+									</form>
+								</td>
+							</tr>
+						</tbody>
+					</table>	
+				</div>
+			</div>
+	</body>
+</html>

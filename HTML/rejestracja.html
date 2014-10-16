@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="style.css" type="text/css" />
+		<title>Serwis aukcyjny</title>
+	</head>
+	<body>
+		<div id="wrapper">
+			
+				<header>
+					<div id="banner">
+							
+								
+						
+					</div>
+				
+					<div id="menu">
+						<div id="opcje">
+							<ul>
+								<nav class="left">
+									<li>
+										<a href="index.html">Home</a>
+									</li>
+									<li>
+										<a>Aukcje</a>
+									</li>
+								</nav>
+								<nav class="right">
+									<li>
+										<a href="rejestracja.html">Rejestracja</a>
+									</li>
+									<li>
+										<a href="logowanie.html">Logowanie</a>
+									</li>
+								</nav>
+							</ul>
+						</div>
+					</div>
+				</header>
+				<div id="rejestracja">
+					<form action="url_do_rejestracji" method="post">
+						<fieldset>
+							<h1 style='margin:10px 0;'>Rejestracja nowego konta</h1>
+							<table style='width:100%;'>
+								<tr>
+									<td class="konto"><a style='margin-right:8px;'>Imię</a><input class="pole2"  type='text' name='name'/></td>
+								</tr>
+								<tr>
+									<td class="konto"><a style='margin-right:8px;'>Nazwisko</a><input class="pole2" type='text' name='surname'/></td>
+								</tr>
+								<tr>
+									<td class="konto"><a>Login<sup>*</sup> </a><input class="pole2" type='text' name='username'/></td>
+								<tr>
+									<td class="konto"><a>Hasło<sup>*</sup> </a><input class="pole2" type='password' name='password'/></td>
+								</tr>
+								<tr>	
+									<td class="konto"><a>E-mail<sup>*</sup> </a><input class="pole2" type='text' name='e-mail'/></td>
+								</tr>
+								<tr>	
+									<td class="konto"><a>Data urodzenia<sup>*</sup> </a><input class="pole2" type='date' name='birthday'/></td>
+								</tr>
+								<tr>	
+									<td><a>Oświadczenie<sup>*</sup> </a><input type='checkbox' value="1"> <a style='font-size:12px;margin-right:118px;'>"Oświadczam, że nie znam i nie akceptuję zasad regulaminu."</td>
+								</tr>
+							</table>
+								<input id="guzik3" type="submit" value="załóż konto" />
+						</fieldset>
+					</form>
+				</div>
+		</div>
+	</body>
+</html>

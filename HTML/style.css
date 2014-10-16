@@ -1,0 +1,49 @@
+body{background: #00FFFF;}
+
+
+#wrapper{ margin: 0 auto;width:1000px;}
+
+
+#banner{border: 1px solid #fff;width: 100%;height: 198px; float: left; margin-top: 20px;}
+
+#menu{width:100%; height: 50px; border: 1px solid #000; border-radius: 5px; background-color: #000; float: left; margin-top: 10px;}
+
+#opcje{font-size: 18px;color: #FFF;position: relative;margin:0;padding-top: 16px; padding-right: 10px;}
+
+#opcje ul{ margin:0; padding: 0;}
+#opcje ul li{float:left;margin-left: 20px;	position: relative;	list-style: none;}
+#opcje ul li a{text-decoration: none;color: inherit;}
+
+.left{float: left;}
+.right{float: right;}
+
+#aktualnosci{float:right; margin-top: 20px; width: 80%; height: 712px;border: 1px solid #000;padding: 5px;}
+#katalog{width: 16%;height: 500px; margin-top: 20px; border: 1px solid #000; float: left;font: 16px Times;color: #000;padding: 5px;}
+#uzytkownicy{width: 16%;height: 180px; margin-top: 20px; border: 1px solid #000; float: left;padding: 5px;}
+
+#katalog a {font: 18px; margin-left: 10px;}
+#katalog ul{margin-top: 0;}
+
+table tbody tr td {padding-top:10px;padding-left: 120px;}
+
+#guzik1{width: 254px;height: 40px;margin-left: 47px;}
+#guzik2{width: 250px;height: 40px;}
+#guzik3{width: 200px;height: 40px;margin:20px 10px 20px 0;float: right;}
+.pole{width: 250px;height: 39px;}
+.pole2{width: 200px;height: 20px;}
+
+#logowanie{width: 50%;height:250px;float: left;margin-top: 100px;}
+#nielogowanie{width: 50%;height: 100px;float:right;margin-top: 180px;}
+
+.naglowek{font-size: 26px;text-align: center;}
+td.naglowek{padding-bottom: 20px;}
+td i{font-size: 16px;}
+td a{font-size: 16px;}
+
+#rejestracja{float: left;margin-top: 50px;text-align: center;width: 100%;height: 550px;}
+
+sup{color:#FF0000;}
+
+.konto{padding-right: 400px;float:right;}
+
+fieldset{border-style: dotted;border-color: #FF0000;padding: 0;}
